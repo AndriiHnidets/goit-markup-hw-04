@@ -564,6 +564,7 @@ text-align: center;
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+justify-content: space-around
 }
 .hero-clients-box{
 }
