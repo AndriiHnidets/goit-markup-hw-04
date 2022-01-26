@@ -178,9 +178,18 @@ display: flex;
 /*hero main section 1*/
 .hero-main {
 background: #2F303A;
-background-image: url(../images/hero-main/hero-main.jpg);
+background-image:
+linear-gradient(to right, rgba(47, 48, 58, 0.4),) url(../images/hero-main/hero-main.jpg);
+height: 600px;
+max-width: 1600px;
 padding-top: 200px;
 padding-bottom: 200px;
+margin-right: auto;
+margin-left: auto;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
 
 }
 .box-1{
