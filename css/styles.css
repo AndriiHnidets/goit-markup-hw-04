@@ -176,10 +176,13 @@ display: flex;
   color: #2196f3;}
 /*hero*/
 /*hero main section 1*/
-.hero-main {
-background: #2F303A;
-background-image:
-linear-gradient(to right, rgba(47, 48, 58, 0.4),) url(../images/hero-main/hero-main.jpg);
+.hero-main{
+background-color: #2F303A;
+background-image: linear-gradient(
+  rgba(47, 48, 58, 0,4),
+  rgba(47, 48, 58, 0,4)
+), 
+url(../images/hero-main/hero-main.jpg);
 height: 600px;
 max-width: 1600px;
 padding-top: 200px;
@@ -189,8 +192,6 @@ margin-left: auto;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
-
 }
 .box-1{
 width: 270px;
