@@ -178,7 +178,7 @@ display: flex;
 /*hero main section 1*/
 .hero-main{
 background-color: #2F303A;
-background-image: linear-gradient(to right, rgba(47, 48, 58, 0,4),  rgba(47, 48, 58, 0,4),), 
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),  rgba(47, 48, 58, 0.4)), 
 url(../images/hero-main/hero-main.jpg);
 height: 600px;
 max-width: 1600px;
