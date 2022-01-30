@@ -446,7 +446,7 @@ html {
 
 .hero-team-description {
   padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .hero-team-pcs1 {
   background: url(4853.jpg);
@@ -552,6 +552,55 @@ html {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.hero-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.hero-social-link-inst {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.hero-social-icon-inst {
+  fill: #ffffff;
+}
+.hero-social-link-inst:hover,
+.hero-social-link-inst:focus {
+  background-color: #ffffff;
+}
+.hero-social-link-inst:hover .hero-social-icon-inst,
+.hero-social-link-inst:focus .hero-social-icon-inst {
+  fill: #2196f3;
+}
+.hero-social-link:hover,
+.hero-social-link:focus {
+  background-color: #2196f3;
+}
+.hero-social-link:hover .hero-social-icon,
+.hero-social-link:focus .hero-social-icon {
+  fill: #ffffff;
+}
+
+.hero-social-icon {
+  fill: #afb1b8;
+}
+.hero-team-social {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.hero-social-item + .hero-social-item {
+  margin-left: 10px;
 }
 .hero-clients {
   padding-bottom: 94px;
