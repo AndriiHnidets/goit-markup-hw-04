@@ -179,6 +179,26 @@ html {
 .header-info-tel:focus {
   color: #2196f3;
 }
+.header-mail-item {
+  margin-right: 10px;
+}
+.header-tel-item {
+  margin-right: 10px;
+}
+.header-mail-icon {
+  fill: #2196f3;
+}
+.header-tel-icon {
+  fill: #757575;
+}
+.header-tel-icon:hover,
+.header-tel-icon:focus {
+  fill: #2196f3;
+}
+.header-mail-icon:hover,
+.header-mail-icon:focus {
+  fill: #757575;
+}
 /*hero*/
 /*hero main section 1*/
 .hero-main {
@@ -754,6 +774,7 @@ html {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
+/*foter social*/
 .footer-text {
   font-family: Roboto;
   font-style: normal;
@@ -764,6 +785,56 @@ html {
   text-transform: uppercase;
   color: #ffffff;
   align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-social-link-twiter {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-social-icon-twiter {
+  fill: #ffffff;
+}
+.footer-social-link-twiter:hover,
+.footer-social-link-twiter:focus {
+  background-color: #ffffff;
+}
+.footer-social-link-twiter:hover .footer-social-icon-twiter,
+.footer-social-link-twiter:focus .footer-social-icon-twiter {
+  fill: #2196f3;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #ffffff;
+}
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: #757575;
+}
+
+.footer-social-icon {
+  fill: #ffffff;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
 }
 
 /*portfolio*/
