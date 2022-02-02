@@ -159,12 +159,8 @@ html {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
-  margin-right: 50px;
-}
-.header-info-adres:hover,
-.header-info-adres:focus {
   color: #757575;
+  margin-right: 50px;
 }
 .header-info-tel {
   font-family: Roboto;
@@ -175,29 +171,35 @@ html {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.header-mail-item {
+  margin-right: ;
+}
+.header-tel-item {
+  margin-right: ;
+}
+.header-mail-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+.header-tel-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+.header-info-tel:hover .header-tel-icon,
+.header-info-tel:focus .header-tel-icon {
+  fill: #2196f3;
+}
 .header-info-tel:hover,
 .header-info-tel:focus {
   color: #2196f3;
 }
-.header-mail-item {
-  margin-right: 10px;
-}
-.header-tel-item {
-  margin-right: 10px;
-}
-.header-mail-icon {
+.header-info-adres:hover .header-mail-icon,
+.header-info-adres:focus .header-mail-icon {
   fill: #2196f3;
 }
-.header-tel-icon {
-  fill: #757575;
-}
-.header-tel-icon:hover,
-.header-tel-icon:focus {
-  fill: #2196f3;
-}
-.header-mail-icon:hover,
-.header-mail-icon:focus {
-  fill: #757575;
+.header-info-adres:hover,
+.header-info-adres:focus {
+  color: #2196f3;
 }
 /*hero*/
 /*hero main section 1*/
@@ -639,77 +641,30 @@ html {
 }
 .hero-clients-box {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
-.hero-clients-box {
+.clients-item + .clients-item {
+  margin-left: 30px;
 }
-.box-clients-1 {
+.clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
+  padding: 16px 32px;
+  border: 1px solid;
+  border-color: #afb1b8;
   border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
-.box-clients-2 {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.clients-icon {
+  fill: #afb1b8;
 }
-.box-clients-3 {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.clients-item:hover .clients-icon,
+.clients-item:focus .clients-icon {
+  fill: #2196f3;
 }
-.box-clients-4 {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.box-clients-5 {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-5.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.box-clients-6 {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 0;
-  background-image: url(../images/companies/company-6.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.clients-item:hover,
+.clients-item:focus {
+  border-color: #2196f3;
 }
 /*footer*/
 .footer {
